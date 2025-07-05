@@ -1,6 +1,6 @@
 <div align="center">
   
-<h1>AuthFace: Towards Authentic Blind Face Restoration with Face-oriented Generative Diffusion Prior</h1>
+<h1>AuthFace: Towards Authentic Blind Face Restoration with Face-oriented Generative Diffusion Prior (ACM MM 2025)</h1>
   
 <div>
   <a href='https://scholar.google.com/citations?user=GHz1gUIAAAAJ&hl=zh-CN' target='_blank'>Guoqiang Liang<sup>1,2
@@ -22,10 +22,6 @@
 
 ## News :loudspeaker:
 - [2024.10] This repo is created.
+- [2025.07]: Our paper has been accepted by ACM MM 2025 and we plan to realse our dataset by the end of October.
 
 
-
-## Real-World Results :camera:
-[<img src="fig/demo1.png" height="320px"/>](https://imgsli.com/MzEzOTQz) [<img src="fig/demo2.png" height="320px"/>](https://imgsli.com/MzEzOTQ1)
-
-[<img src="fig/demo3.png" height="320px"/>](https://imgsli.com/MzEzOTQ5) [<img src="fig/demo4.png" height="320px"/>](https://imgsli.com/MzEzOTU3)
