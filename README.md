@@ -32,7 +32,7 @@
 
 ## :file_folder: AuthFace-HQ Dataset
 
-We provide a high-quality face dataset collected for authentic blind face restoration. The dataset consists of **2,104** high-resolution images, divided into male and female categories.
+We present a high-quality face dataset for authentic blind face restoration. Due to proprietary constraints, the released dataset is limited to samples collected from Unsplash and is made available under a non-commercial license. The dataset consists of **2,104** high-resolution images, divided into male and female categories.
 
 ### 1. Download Dataset :inbox_tray:
 
