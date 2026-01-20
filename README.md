@@ -6,6 +6,9 @@
   <img src="https://img.shields.io/badge/ACM%20MM-2025%20Oral-blueviolet?style=flat-square" />
   <img src="https://img.shields.io/badge/Task-Blind%20Face%20Restoration-ff69b4?style=flat-square" />
   <img src="https://img.shields.io/badge/License-Non--commercial-lightgrey?style=flat-square" />
+  <a href="https://huggingface.co/Ethanliang99/AuthFace/tree/main">
+    <img src="https://img.shields.io/badge/Hugging%20Face-Model-yellow?style=flat-square&logo=huggingface" />
+  </a>
 </p>
 
 <div>
@@ -102,9 +105,10 @@ conda create -n authface python==3.10
 conda activate authface
 ```
 
-### 2. Install dependencies
+### 2. Install dependencies and download the model
 ```bash
 pip install -r requriment.txt
+huggingface-cli download Ethanliang99/AuthFace --local-dir /path/to/save --repo-type model
 ```
 
 ### 3. Run the test script
