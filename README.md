@@ -42,7 +42,7 @@
 ---
 
 ## News :loudspeaker:
-- **[2026.01]** :fire: Our infernece code and models are rleased.
+- **[2026.01]** :fire: Our **inference code and models** are released.
 - **[2025.10]** :fire: **High-Quality Face Dataset Released!** We release **2,104** high-quality face images with detailed captions.
 - **[2025.07]** Our paper has been accepted by **ACM MM 2025**.
 - **[2024.10]** This repo is created.
