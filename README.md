@@ -2,7 +2,11 @@
 
 # AuthFace: Towards Authentic Blind Face Restoration with <br> Face-oriented Generative Diffusion Prior
 
-[**ACM MM 2025 Oral**]
+<p>
+  <img src="https://img.shields.io/badge/ACM%20MM-2025%20Oral-blueviolet?style=flat-square" />
+  <img src="https://img.shields.io/badge/Task-Blind%20Face%20Restoration-ff69b4?style=flat-square" />
+  <img src="https://img.shields.io/badge/License-Non--commercial-lightgrey?style=flat-square" />
+</p>
 
 <div>
   <a href='https://scholar.google.com/citations?user=GHz1gUIAAAAJ&hl=zh-CN' target='_blank'>Guoqiang Liang</a><sup>1,2</sup>&emsp;
@@ -19,11 +23,19 @@
   <sup>3</sup>Hong Kong University of Science and Technology
 </div>
 
-<br>
-
 </div>
 
+<div align="center">
+  <a href="#news-loudspeaker">News</a> •
+  <a href="#authface-hq-dataset">Dataset</a> •
+  <a href="#rocket-running-and-setup">Running</a> •
+  <a href="#mortar_board-citation">Citation</a>
+</div>
+
+---
+
 ## News :loudspeaker:
+- **[2026.01]** :fire: Our infernece code and models are rleased.
 - **[2025.10]** :fire: **High-Quality Face Dataset Released!** We release **2,104** high-quality face images with detailed captions.
 - **[2025.07]** Our paper has been accepted by **ACM MM 2025**.
 - **[2024.10]** This repo is created.
@@ -70,6 +82,33 @@ Dataset_Root
 </details>
 
 ---
+
+## :rocket: Running and Setup
+
+In the project root, follow these steps:
+
+### 1. Create and activate the environment
+```bash
+conda create -n authface python==3.10
+conda activate authface
+```
+
+### 2. Install dependencies
+```bash
+pip install -r requriment.txt
+```
+
+### 3. Run the test script
+```bash
+sh ./option/test/test_base.sh
+```
+
+<details>
+<summary>Notes for <code>./option/test/test_base.sh</code></summary>
+
+- Update the path-related arguments (e.g., `--pretrained_model_name_or_path`, `--validate_image_path`, `--output_dir`) to your local paths.
+- `--prompt` and `--minor_color_fix_strength` can be customized, but the paper uses the default values in the script.
+</details>
 
 ## :mortar_board: Citation
 If you find our dataset or code useful, please cite our paper:
