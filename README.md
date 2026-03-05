@@ -42,6 +42,7 @@
 ---
 
 ## News :loudspeaker:
+- **[2026.02]** 🔥 Our work was featured by **[Droider](https://www.youtube.com/watch?v=kay87MWCY9U)** (1.5M+ followers).
 - **[2026.01]** :fire: Our **inference code and models** are released.
 - **[2025.10]** :fire: **High-Quality Face Dataset Released!** We release **2,104** high-quality face images with detailed captions.
 - **[2025.07]** Our paper has been accepted by **ACM MM 2025**.
